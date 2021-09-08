@@ -43,7 +43,7 @@ Hooks:PostHook(BlackMarketTweakData, "_init_projectiles", "ClientProjectiles_Bla
         if projectile_unit and weapon_id and not projectile.local_unit then -- Exclude if it already has a local
             -- local unit_xml = DB:open("unit", projectile_unit):read()
             projectile.no_cheat_count = true -- Make it client side
-            projectile.client_authoritative = true -- Make it client side
+            -- projectile.client_authoritative = true -- Make it client side, but it crashed when somebody shoots it -.-
             projectile.time_cheat = 0 -- Make it client side
             local _nus = mysplit(projectile_unit, "/") -- new unit string
             local _nu_last = _nus[#_nus] -- Get last from split

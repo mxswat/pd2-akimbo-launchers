@@ -1,5 +1,5 @@
 <table name="Akimbo Grenade Launchers">
-	<AssetUpdates id="31502" version="0.8" provider="modworkshop" />
+	<AssetUpdates id="31502" version="0.81" provider="modworkshop" />
 	<Localization directory="locale" default="locale.json">
 	</Localization>
 	<AddFiles directory="Assets">
@@ -45,6 +45,7 @@
 		</hooks>
 		<hooks directory="projectiles">
 			<hook file="blackmarkettweakdata.lua" source_file="lib/tweak_data/blackmarkettweakdata" />
+			<hook file="projectileweaponbase.lua" source_file="lib/units/weapons/projectileweaponbase"/>
 		</hooks>
 	</Hooks>
 </table>
