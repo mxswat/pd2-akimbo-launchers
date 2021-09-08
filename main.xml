@@ -25,6 +25,7 @@
 			<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager" />
 			<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata" />
 			<hook file="weaponskinstweakdata.lua" source_file="lib/tweak_data/blackmarket/weaponskinstweakdata" />
+			<hook file="projectilebase.lua" source_file="lib/units/weapons/projectiles/projectilebase"/>
 		</hooks>
 		<hooks directory="projectiles">
 			<hook file="blackmarkettweakdata.lua" source_file="lib/tweak_data/blackmarkettweakdata" />
