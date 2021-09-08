@@ -13,6 +13,22 @@
 		<texture path="guis/dlcs/mx_mods/textures/pd2/blackmarket/icons/weapons/gre_m79_mxakimbo" reload="true" />
 		<texture path="guis/dlcs/mx_mods/textures/pd2/blackmarket/icons/weapons/m32_mxakimbo" reload="true" />
 		<texture path="guis/dlcs/mx_mods/textures/pd2/blackmarket/icons/weapons/slap_mxakimbo" reload="true" />
+		<unit path="local_units/wpn_arbiter_frag_grenade_local" />
+		<unit path="local_units/wpn_arbiter_frag_incendiary_grenade_local" />
+		<unit path="local_units/wpn_launcher_electric_arbiter_local" />
+		<unit path="local_units/wpn_launcher_electric_china_local" />
+		<unit path="local_units/wpn_launcher_electric_local" />
+		<unit path="local_units/wpn_launcher_electric_m32_local" />
+		<unit path="local_units/wpn_launcher_electric_slap_local" />
+		<unit path="local_units/wpn_launcher_frag_grenade_china_local" />
+		<unit path="local_units/wpn_launcher_frag_grenade_local" />
+		<unit path="local_units/wpn_launcher_frag_m203_local" />
+		<unit path="local_units/wpn_launcher_incendiary_grenade_local" />
+		<unit path="local_units/wpn_third_ray_fired_rocket_local" />
+		<unit path="local_units/wpn_third_rpg7_fired_rocket_local" />
+		<unit path="local_units/wpn_underbarrel_electric_groza_local" />
+		<unit path="local_units/wpn_underbarrel_electric_local" />
+		<unit path="local_units/wpn_underbarrel_m203_groza_local" />
 	</AddFiles>
 	<Hooks directory="Hooks">
 		<hooks directory="akimbo_GLs">
@@ -25,7 +41,7 @@
 			<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager" />
 			<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata" />
 			<hook file="weaponskinstweakdata.lua" source_file="lib/tweak_data/blackmarket/weaponskinstweakdata" />
-			<hook file="projectilebase.lua" source_file="lib/units/weapons/projectiles/projectilebase"/>
+			<!-- <hook file="projectilebase.lua" source_file="lib/units/weapons/projectiles/projectilebase"/> -->
 		</hooks>
 		<hooks directory="projectiles">
 			<hook file="blackmarkettweakdata.lua" source_file="lib/tweak_data/blackmarkettweakdata" />
